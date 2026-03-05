@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="asset/css/styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header id="header" class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Alvaro Xavier Rahardjo</h2>
+            <div class="menu" id="menu">
+                <i class="fa fa-bars" onclick="toggleMenu()"></i>
+                <a class="menu-link" href="#home">Home</a>
+                <a class="menu-link" href="#about">About</a>
+                <a class="menu-link" href="#projects">Projects</a>
+                <a class="menu-link" href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="intro-section">
+            <div class="headings">
+                <img class="profile-image" src="asset/image/IMG-20250808-WA0000.jpg" alt="Profile Picture">
+                <h2 class="greet-heading">Hello, I'm</h2>
+                <h1 class="heading">Alvaro Xavier Rahardjo</h1>
+                <h3 class="sub-heading">A Student of Universitas Pelita Harapan</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="about-section">
+            <h2 class="section-heading">About Me</h2>
+            <p class="about-description">
+            I am a student at Universitas Pelita Harapan, majoring in Information Systems. I have a passion for technology and programming, and I am always eager to learn new skills and take on new challenges. In my free time, I enjoy working on personal projects, exploring new technologies, and contributing to open-source projects.
+            </p>
+        </div>
+        <div class="alumni-section">
+            <h2 class="alumni-heading">Alumni Of:</h2>
+            <div class="school-list">
+            <div class="school-item">
+                <img src="asset/image/logo-RWS.png" alt="SD Royal Wells School" width="150" class="school-logo-image">
+                <p span class="alumni-name">SD Royal Wells School</p>
+            </div>
+            <div class="school-item">
+                <img src="asset/image/logo-199.png"  alt="SMP Negeri 199 Jakarta Timur" width="150" class="school-logo-image">
+                <p span class="alumni-name">SMP Negeri 199 Jakarta Timur</p>
+            </div>
+            <div class="school-item">
+                <img src="asset/image/logo-8.jpg" alt="SMA Negeri 8 Beksai" width="150  " class="school-logo-image">
+                <p span class="alumni-name">SMA Negeri 8 Beksai</p>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="projects-section">
+            <h2 class="section-heading">Projects</h2>
+            <h3 class="projects-description">
+            Here are some of the projects I have worked on and are working on:
+            </h3>
+            <div class="project-list">
+            <div class="project-item">
+                <h3 class="project-title">Project 1: Personal Portfolio Website</h3>
+                <p class="project-description">A personal portfolio website built using HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+            </div>
+            <div class="project-item">
+                <h3 class="project-title">Project 2: Role Playing Game</h3>
+                <p class="project-description">A simple role playing game made with Unity.</p>
+            </div>
+             <div class="project-item">
+                <h3 class="project-title">Project 3: SQL Database</h3>
+                <p class="project-description">A SQL database project for managing and querying data of a bakery.</p>
+            </div>
+             <div class="project-item">
+                <h3 class="project-title">Project 4: Fintech </h3>
+                <p class="project-description">A financial technology application for managing personal finances. </p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-section">
+            <h2 class="section-heading">Contact Me</h2>
+            <p class="contact-description">
+            If you would like to get in touch with me, please feel free to reach out through the following channels:
+            </p>
+            <div class="contact-info">
+            <p>Email: <a href="mailto:alvaroxrahardjo@gmail.com">alvaroxrahardjo@gmail.com</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/alvaroxrahardjo/" target="_blank">instagram.com/alvaroxrahardjo</a></p>
+            <p>GitHub: <a href="https://github.com/alvarorahardjo-axr" target="_blank">github.com/alvarorahardjo-axr</a></p>
+        </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Alvaro Xavier Rahardjo. All rights reserved.</p>
+        <div class="social-links">
+            <div class="footer-menu">
+                 <a href="mailto:alvaroxrahardjo@gmail.com" target="_blank">
+                    <i class="fab fa-envelope"></i>
+                </a>
+                <a href="https://www.instagram.com/alvaroxrahardjo/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://github.com/alvarorahardjo-axr" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    </script>
+</body>
+</html>
